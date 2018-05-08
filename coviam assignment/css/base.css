@@ -1,0 +1,105 @@
+.nav-class {
+	background-color: #273032;
+    padding: 5px;
+    color: #EEEEEE;
+    display: block;
+}
+.icon {
+	height: 40px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+.icon-linkedin {
+	color: #0077B5;
+}
+.icon-fb {
+	color: #4867AA;
+}
+.icon-git {
+	color: #8BDBCB;
+}
+.icon-fcc {
+	color: #006400;
+}
+.heading {
+	font-size: 22px;
+	text-align: center;
+	padding: 5px;
+}
+.m-t6 {
+	margin-top: 6px;
+}
+.p3 {
+	padding: 3px;
+}
+.assessment-body {
+	background-color: #000000;
+	display: block;
+	margin-top: 50px;
+	height: 560px;
+	padding: 70px; 
+}
+.question-board {
+	background-color: #0F654C;
+	color: #ffffff;
+	border: 15px solid #845946;
+	border-radius: 3px;
+	padding: 20px;
+}
+.quiz {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.questions {
+	margin-left: 5%;
+	font-size: 18px;
+}
+.options {
+	margin-top: 20px;
+}
+.answers {
+	text-align: center;
+}
+.answer {
+	border: 1px #ffffff solid;
+	columns: #FFFFFF;
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #0F654C;
+}
+.next {
+	text-align: right;
+	margin-top: 10px;
+}
+#submit {
+	display: none;
+}
+.result {
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 3px;
+}
+.suggest {
+	margin-top: 20px;
+}
+.reportTable{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 2px solid #ffffff;
+}
+.footer{
+	background-color: #273032;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+}

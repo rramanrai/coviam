@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/png" href="http://www.coviam.com/img/logo_title.png">
+		<title>Coviam Technologies</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/a2d58fa70a.js"></script>
+	</head>
+	<body>
+		<nav class="navbar-fixed-top nav-class">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 p3">
+					<a href="http://www.coviam.com/">
+						<img class="icon" src="http://www.coviam.com/img/coviam_technologies-logo_whitebg.png">
+					</a>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-7 hidden-xs col-xs-0 heading">
+					Online Assessment
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 m-t6">
+					<a href="https://www.linkedin.com/in/raman-rai-14758a46/"><i class="fa fa-linkedin-square fa-2x icon-linkedin p3" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/143raman"><i class="fa fa-facebook-square fa-2x icon-fb p3" aria-hidden="true"></i></a>
+					<a href="https://github.com/rramanrai"><i class="fa fa-git-square fa-2x icon-git p3" aria-hidden="true"></i></a>
+					<a href="https://www.freecodecamp.org/rramanrai"><i class="fa fa-free-code-camp fa-2x icon-fcc p3" aria-hidden="true"></i></a>
+				</div>
+			</div>		
+		</nav>
+		<div class="assessment-body">
+			<div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 question-board" id="question-board">
+				<div class="questions">
+					<div class="quiz" id="quiz"></div>
+					<div id="question"></div>
+					<div class="options">
+						<ol type="A" id="options"></ol>
+					</div>
+				</div>
+				<div class="answers">
+					<button type="button" class="answer" id="answer1" onclick="doSelect('0')">A</button>
+					<button type="button" class="answer" id="answer2" onclick="doSelect('1')">B</button>
+					<button type="button" class="answer" id="answer3" onclick="doSelect('2')">C</button>
+					<button type="button" class="answer" id="answer4" onclick="doSelect('3')">D</button>
+				</div>
+				<div class="next">
+					<button type="button" class="answer" id="next" onclick="next()" disabled
+					>Next</button>	
+					<button type="button" class="answer" id="submit" onclick="submit()" disabled>Submit</button>	
+				</div>
+			</div>
+			<table id="reportTable" class="reportTable" align="center" cellpadding="10"></table>
+
+		</div>
+		<footer class="fixed-bottom footer">
+			Experience is not that we put on our @CV, It's that we achieve by making things!
+		</footer>
+		<script type="text/javascript" src="js/base.js"></script>
+	</body>
+</html>
